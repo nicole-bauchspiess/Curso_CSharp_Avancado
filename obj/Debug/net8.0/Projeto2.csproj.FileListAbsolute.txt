@@ -1,0 +1,15 @@
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.exe
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.deps.json
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.runtimeconfig.json
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.dll
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\bin\Debug\net8.0\Projeto2.pdb
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.GeneratedMSBuildEditorConfig.editorconfig
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.AssemblyInfoInputs.cache
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.AssemblyInfo.cs
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.csproj.CoreCompileInputs.cache
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.sourcelink.json
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.dll
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\refint\Projeto2.dll
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.pdb
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\Projeto2.genruntimeconfig.cache
+D:\trabalhos nicole\Curso C#\Avancado\Curso_CSharp_Avancado\Projeto2\Projeto2\obj\Debug\net8.0\ref\Projeto2.dll
