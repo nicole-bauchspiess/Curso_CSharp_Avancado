@@ -6,39 +6,23 @@ namespace Projeto2 // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
+            Pessoa p1 = new Pessoa();
+            p1.setNome(Console.ReadLine());
+            p1.setIdade(int.Parse(Console.ReadLine()));
 
-            Triangulo X = new Triangulo();
-            Triangulo Y = new Triangulo();
+            Pessoa p2 = new Pessoa();
+            p2.setNome(Console.ReadLine());
+            p2.setIdade(int.Parse(Console.ReadLine()));
 
-            Console.WriteLine("entre com as medidas do triangulo x:");
-            X.A = double.Parse(Console.ReadLine());
-            X.B = double.Parse(Console.ReadLine());
-            X.C = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("entre com as medidas do triangulo y:");
-            Y.A = double.Parse(Console.ReadLine());
-            Y.B = double.Parse(Console.ReadLine());
-            Y.C = double.Parse(Console.ReadLine());
-
-
-            double p1 = (X.A + X.B + X.C) / 2;
-            double p2 = (Y.A + Y.B + Y.C) / 2;
-
-            double area1 = Math.Sqrt(p1 * (p1 - X.A) * (p1 - X.B) * (p1 - X.C));
-            double area2 = Math.Sqrt(p2 * (p2 - Y.A) * (p2 - Y.B) * (p2 - Y.C));
-
-            Console.WriteLine("area de x: " + area1);
-            Console.WriteLine("area de y: " + area2);
-            Console.Write("maior área: ");
-
-            if (area1 > area2)
+            if(p1.getIdade() > p2.getIdade()) 
             {
-                Console.WriteLine("area de x");
+                Console.WriteLine("Pessoa mais velha: " + p1.getNome());
             }
             else
             {
-                Console.WriteLine("area de y");
+                Console.WriteLine("Pessoa mais velha: " + p2.getNome());
             }
+
         }
     }
 }
