@@ -6,21 +6,25 @@ namespace Projeto2 // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Triangulo X = new Triangulo();
-            Triangulo Y = new Triangulo();
+            Produto p1 = new Produto();
+            Console.WriteLine("nome do produto: ");
+            p1.setNome(Console.ReadLine());
+            Console.WriteLine("quantidade do produto: ");
+            p1.setQtd(int.Parse(Console.ReadLine()));
+            Console.WriteLine("preço do produto: ");
+            p1.setPreco(double.Parse(Console.ReadLine()));
 
-            Console.WriteLine("entre com as medidas do triangulo x:");
-            X.A = double.Parse(Console.ReadLine());
-            X.B = double.Parse(Console.ReadLine());
-            X.C = double.Parse(Console.ReadLine());
+            Console.WriteLine("Informa a quantidade a adicionar no estoque");
+            int qtd = int.Parse(Console.ReadLine());
+            p1.adicionaProdutos(qtd);
+            Console.WriteLine("Nova quantidade do estoque: " + p1.getQtd());
 
-            Console.WriteLine("entre com as medidas do triangulo y:");
-            Y.A = double.Parse(Console.ReadLine());
-            Y.B = double.Parse(Console.ReadLine());
-            Y.C = double.Parse(Console.ReadLine());
+            Console.WriteLine("Informa a quantidade a remover no estoque");
+            qtd = int.Parse(Console.ReadLine());
+            p1.removeProdutos(qtd);
+            Console.WriteLine("Nova quantidade do estoque: " + p1.getQtd());
+            Console.WriteLine("valor total em estoque: " + p1.valorEmEstoque());
 
-            Console.WriteLine("area do x: " + X.area().ToString("F2"));
-            Console.WriteLine("area do y: " + Y.area().ToString("F2")) ;
 
         }
     }
