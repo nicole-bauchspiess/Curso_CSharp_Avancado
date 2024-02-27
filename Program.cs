@@ -6,15 +6,17 @@ namespace Projeto2 // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Entre com a largura e altura");
-            Retangulo r = new Retangulo();
+            Console.WriteLine("Entre com o raio:");
+            double raio = double.Parse(Console.ReadLine());
 
-            r.setLargura(double.Parse(Console.ReadLine()));
-            r.setAltura(double.Parse(Console.ReadLine()));
+            double circ = Calculadora.circunferencia(raio);
+            double vol = Calculadora.volume(raio);
+            Console.WriteLine("Circ: " + circ.ToString("F2"));
+            Console.WriteLine("volume: " +  vol.ToString("F2"));
+            Console.WriteLine("pi: " + Calculadora.getPi());
 
-            Console.WriteLine("Area:" + r.area());
-            Console.WriteLine("Perimetro:" + r.perimetro());
-            Console.WriteLine("diagonal:" + r.diagonal());
+
+       
 
         }
     }
